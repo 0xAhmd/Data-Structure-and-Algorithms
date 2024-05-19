@@ -1,5 +1,4 @@
-def factorial(n):
-    """
+   """
     Calculates the factorial of a non-negative integer.
     
     Args:
@@ -8,6 +7,7 @@ def factorial(n):
     Returns:
     int: Factorial of n
     """
+def factorial(n):
     # Base case: If n is 0 or 1, return 1
     if n == 0 or n == 1:
         return 1
